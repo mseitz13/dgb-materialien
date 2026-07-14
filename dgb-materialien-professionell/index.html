@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Digitale Unterrichtsmaterialien für Digitale Grundbildung">
+  <title>DGB Materialsammlung</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#start">
+        <span class="brand-mark">DGB</span>
+        <span class="brand-text">
+          <strong>Materialsammlung</strong>
+          <small>Digitale Grundbildung</small>
+        </span>
+      </a>
+
+      <button class="menu-button" id="menuButton" aria-label="Menü öffnen">☰</button>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#klassen">Klassen</a>
+        <a href="#materialien">Materialien</a>
+        <a href="#tools">Tools</a>
+        <a href="#lehrpersonen">Für Lehrpersonen</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="start">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Lernen. Anwenden. Verstehen.</span>
+          <h1>Digitale Grundbildung einfach und übersichtlich.</h1>
+          <p>
+            Hier finden Schülerinnen, Schüler und Lehrpersonen Arbeitsblätter,
+            Präsentationen, Links und digitale Unterrichtsmaterialien an einem Ort.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#klassen">Materialien ansehen</a>
+            <a class="button button-secondary" href="#suche">Material suchen</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card-icon">⌨️</div>
+          <h2>Schnell zum richtigen Material</h2>
+          <p>Nach Klasse, Thema oder Materialart filtern und direkt herunterladen.</p>
+          <div class="mini-stats">
+            <div><strong>4</strong><span>Klassen</span></div>
+            <div><strong>8+</strong><span>Themen</span></div>
+            <div><strong>1</strong><span>zentrale Seite</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section search-section" id="suche">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Suche</span>
+          <h2>Was möchtest du finden?</h2>
+          <p>Suche zum Beispiel nach „Word“, „KI“, „Canva“ oder „Arbeitsblatt“.</p>
+        </div>
+
+        <div class="search-box">
+          <input id="searchInput" type="search" placeholder="Material suchen …" aria-label="Material suchen">
+          <span>⌕</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="klassen">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Nach Klassen</span>
+          <h2>Materialien für jede Schulstufe</h2>
+        </div>
+
+        <div class="class-grid">
+          <a class="class-card class-one" href="klassen/1-klasse.html">
+            <span class="class-number">01</span>
+            <h3>1. Klasse</h3>
+            <p>Computergrundlagen, Word, Internet, Canva und erste digitale Projekte.</p>
+            <span class="card-link">Zur Klasse →</span>
+          </a>
+
+          <a class="class-card class-two" href="klassen/2-klasse.html">
+            <span class="class-number">02</span>
+            <h3>2. Klasse</h3>
+            <p>Social Media, Memes, Datenschutz und kreatives Arbeiten.</p>
+            <span class="card-link">Zur Klasse →</span>
+          </a>
+
+          <a class="class-card class-three" href="klassen/3-klasse.html">
+            <span class="class-number">03</span>
+            <h3>3. Klasse</h3>
+            <p>Künstliche Intelligenz, Podcast, Microsoft Forms und Mediengestaltung.</p>
+            <span class="card-link">Zur Klasse →</span>
+          </a>
+
+          <a class="class-card class-four" href="klassen/4-klasse.html">
+            <span class="class-number">04</span>
+            <h3>4. Klasse</h3>
+            <p>Vertiefung, Projekte, Medienkompetenz und digitale Zukunftsthemen.</p>
+            <span class="card-link">Zur Klasse →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="materialien">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Materialübersicht</span>
+          <h2>Direkt zu den wichtigsten Bereichen</h2>
+        </div>
+
+        <div class="material-grid" id="materialGrid">
+          <a class="material-card searchable" data-search="arbeitsblätter word pdf übungen" href="materialien/arbeitsblaetter.html">
+            <div class="material-icon">📄</div>
+            <div>
+              <h3>Arbeitsblätter</h3>
+              <p>Aufgaben, Übungen und Materialien zum Herunterladen.</p>
+            </div>
+          </a>
+
+          <a class="material-card searchable" data-search="präsentationen powerpoint canva folien" href="materialien/praesentationen.html">
+            <div class="material-icon">🖥️</div>
+            <div>
+              <h3>Präsentationen</h3>
+              <p>Unterrichtsfolien und Einstiege für verschiedene Themen.</p>
+            </div>
+          </a>
+
+          <a class="material-card searchable" data-search="künstliche intelligenz ki chatgpt gemini copilot perplexity" href="materialien/ki.html">
+            <div class="material-icon">🤖</div>
+            <div>
+              <h3>Künstliche Intelligenz</h3>
+              <p>Aufgaben, Promptübungen und KI-Grundlagen.</p>
+            </div>
+          </a>
+
+          <a class="material-card searchable" data-search="internet sicherheit fake news recherche datenschutz" href="materialien/internet.html">
+            <div class="material-icon">🌍</div>
+            <div>
+              <h3>Internet & Sicherheit</h3>
+              <p>Recherche, Datenschutz, Fake News und sicheres Verhalten.</p>
+            </div>
+          </a>
+
+          <a class="material-card searchable" data-search="word office dokumente tabellen formatieren" href="materialien/word.html">
+            <div class="material-icon">📝</div>
+            <div>
+              <h3>Word & Office</h3>
+              <p>Formatieren, speichern, Tabellen und Dokumentgestaltung.</p>
+            </div>
+          </a>
+
+          <a class="material-card searchable" data-search="canva design kreativ collage präsentation" href="materialien/canva.html">
+            <div class="material-icon">🎨</div>
+            <div>
+              <h3>Canva & Gestaltung</h3>
+              <p>Präsentationen, Collagen und kreative Projekte.</p>
+            </div>
+          </a>
+        </div>
+
+        <p class="empty-state" id="emptyState">Zu diesem Suchbegriff wurde noch nichts gefunden.</p>
+      </div>
+    </section>
+
+    <section class="section" id="tools">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Digitale Werkzeuge</span>
+          <h2>Nützliche Links und Programme</h2>
+        </div>
+
+        <div class="tool-list">
+          <a href="https://www.canva.com/" target="_blank" rel="noopener">Canva <span>↗</span></a>
+          <a href="https://www.microsoft.com/microsoft-365" target="_blank" rel="noopener">Microsoft 365 <span>↗</span></a>
+          <a href="https://learningapps.org/" target="_blank" rel="noopener">LearningApps <span>↗</span></a>
+          <a href="https://www.internet-abc.de/" target="_blank" rel="noopener">Internet-ABC <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section teacher-section" id="lehrpersonen">
+      <div class="container teacher-box">
+        <div>
+          <span class="eyebrow">Für Lehrpersonen</span>
+          <h2>Planungen und Unterrichtsideen</h2>
+          <p>
+            In diesem Bereich werden Jahresplanungen, Stundenideen und
+            ergänzende Materialien für Lehrpersonen gesammelt.
+          </p>
+        </div>
+        <a class="button button-light" href="lehrpersonen/index.html">Bereich öffnen</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <div>
+        <strong>DGB Materialsammlung</strong>
+        <p>Erstellt von Magdalena Seitz</p>
+      </div>
+      <p>© <span id="year"></span> · Alle Angaben ohne Gewähr</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
